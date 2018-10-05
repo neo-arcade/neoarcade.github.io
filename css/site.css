@@ -1,0 +1,75 @@
+.home-body {
+  color: #fff;
+  background-color: #18121E;
+  /* TODO: Replace prefixed gradients with autoprefixer */
+  background-image:
+    -webkit-linear-gradient(
+      30deg,
+      #18121E 0%,
+      #233237 100%
+  );
+  background-image:
+    -o-linear-gradient(
+      30deg,
+      #18121E 0%,
+      #233237 100%
+  );
+  background-image:
+    linear-gradient(
+      60deg,
+      #18121E 0%,
+      #233237 100%
+  );
+
+  /* Fixes display of gradient if content is shorter than the screen */
+  min-height: 100vh;
+}
+
+/* Text selection colour */
+::-moz-selection {
+  color: #fff;
+  background: #EAC67A;
+}
+::selection {
+  color: #fff;
+  background: #EAC67A;
+}
+
+.title-text-super {
+  top: -17px;
+  position: relative;
+}
+
+.brand-text {
+  color: #EAC67A;
+}
+
+.heading {
+  margin-bottom: 3rem;
+}
+
+.subheading {
+  margin-bottom: 1.5rem;
+}
+
+/* Add spacing between sections */
+.section {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+/* Remove extra padding on first and last section, doesn't correctly handle nested sections */
+.section:first-of-type {
+  margin-top: -1.5rem;
+}
+.section:last-of-type {
+  margin-bottom: -1.5rem;
+}
+
+.socials-link:hover {
+  /* Fixes underscore appearing next to fontawesome icon on hover */
+  text-decoration: none;
+}
+
+.socials-link {
+  color: #984B43;
+}
