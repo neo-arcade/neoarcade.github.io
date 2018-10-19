@@ -54,8 +54,15 @@
     <main>
       <div class="container py-5">
         <div class="section section-intro">
-          <h1 class="display-1 heading brand-text text-center" title="Neo Arcade">
-            N<span class="title-text-super">eo</span> A<span class="title-text-super">rcade</span>
+          <h1 class="heading brand-text text-center" title="Neo Arcade">
+            <!-- Stylised brand text for larger devices -->
+            <span class="d-print-none d-none d-sm-inline-block display-1">
+              N<span class="title-text-super">eo</span> A<span class="title-text-super">rcade</span>
+            </span>
+            <!-- Smaller text for mobile without custom formatting -->
+            <span class="d-print-inline-block d-inline-block d-sm-none display-4">
+              Neo Arcade
+            </span>
           </h1>
 
           <p class="text-center h4 mb-4">
@@ -63,7 +70,8 @@
           </p>
 
           <p class="text-center">
-            We believe in striking a balance between nostalgia fuelled, 8-bit classics and modern, high-definition masterpieces.
+            We believe in striking a balance between nostalgia fuelled,<br class="d-none d-sm-block">
+            8-bit classics and modern, high-definition masterpieces.
           </p>
 
           <p class="text-center">
