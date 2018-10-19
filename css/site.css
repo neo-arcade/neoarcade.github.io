@@ -146,6 +146,10 @@ hr {
   text-decoration: none;
 }
 
+.promo-image {
+  border-radius: 0.25rem;
+}
+
 .unknown-space-font {
   font-family: 'Kenney Future Narrow', sans-serif;
 }
