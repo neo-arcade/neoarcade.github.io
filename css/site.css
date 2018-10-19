@@ -49,6 +49,13 @@ a:hover {
 }
 /* END - BOOTSTRAP LINK/BUTTON OVERRIDES */
 
+/* START - MAILCHIMP STYLE OVERRIDES */
+#mc_embed_signup {
+  clear: left;
+  width: 100%;
+}
+/* END - MAILCHIMP STYLE OVERRIDES */
+
 .home-body {
   color: #fff;
   background-color: #18121E;
