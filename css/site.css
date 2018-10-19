@@ -1,18 +1,29 @@
 /* Norwester font: https://jamiewilson.io/norwester/, license: https://scripts.sil.org/OFL */
 @font-face {
   font-family: 'Norwester';
-  src: url('norwester.eot'); /* IE9 Compat Modes */
-  src: url('norwester.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('norwester.woff') format('woff'), /* Pretty Modern Browsers */
-       url('norwester.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('norwester.svg#norwesterregular') format('svg'); /* Legacy iOS */
+  src: url('../fonts/norwester.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/norwester.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/norwester.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/norwester.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/norwester.svg#norwesterregular') format('svg'); /* Legacy iOS */
 }
 
-/* START - BOOTSTRAP FONT OVERRIDES */
+@font-face {
+  font-family: 'Kenney Future Narrow';
+  src: url('../fonts/Kenney-Future-Narrow.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/Kenney-Future-Narrow.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/Kenney-Future-Narrow.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/Kenney-Future-Narrow.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/Kenney-Future-Narrow.svg#Kenney-Future-Narrow') format('svg'); /* Legacy iOS */
+}
+
+/* START - BOOTSTRAP OVERRIDES */
+/* BOOTSTRAP FONT OVERRIDES */
 /* Heading font: Norwester */
 h1, h2, h3, h4, h5, h6,
-.h1, .h2, .h3, .h4, .h5, .h6, .brand-text {
+.h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: 'Norwester', sans-serif;
+  text-transform: uppercase;
 }
 
 /* Body font: Roboto */
@@ -22,9 +33,8 @@ h1, h2, h3, h4, h5, h6,
 html, body, .tooltip, .popover {
   font-family: 'Roboto', sans-serif;
 }
-/* END - BOOTSTRAP FONT OVERRIDES */
 
-/* START - BOOTSTRAP LINK/BUTTON OVERRIDES */
+/* BOOTSTRAP LINK/BUTTON OVERRIDES */
 a {
   color: #984B43;
 }
@@ -42,12 +52,19 @@ a:hover {
   background-color: #753A33 !important;
   /* #984B43 darkened 15% */
   border-color: #63312C !important;
+  /* #FFF darkened 10% */
+  color: #E6E6E6 !important;
 }
 .btn.btn-primary:focus {
   /* #984B43 darkened 10% */
   box-shadow: 0 0 0 0.2rem rgba(117, 58, 51, .5) !important;
 }
-/* END - BOOTSTRAP LINK/BUTTON OVERRIDES */
+
+/* BOOTSTRAP MISC OVERRIDES */
+hr {
+  border-top-color: #fff;
+}
+/* END - BOOTSTRAP OVERRIDES */
 
 /* START - MAILCHIMP STYLE OVERRIDES */
 #mc_embed_signup {
@@ -94,8 +111,9 @@ a:hover {
 }
 
 .title-text-super {
-  top: -17px;
+  top: -10px;
   position: relative;
+  text-transform: lowercase;
 }
 
 .brand-text {
@@ -126,4 +144,8 @@ a:hover {
 .socials-link:hover {
   /* Fixes underscore appearing next to fontawesome icon on hover */
   text-decoration: none;
+}
+
+.unknown-space-font {
+  font-family: 'Kenney Future Narrow', sans-serif;
 }
