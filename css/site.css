@@ -24,6 +24,31 @@ html, body, .tooltip, .popover {
 }
 /* END - BOOTSTRAP FONT OVERRIDES */
 
+/* START - BOOTSTRAP LINK/BUTTON OVERRIDES */
+a {
+  color: #984B43;
+}
+a:hover {
+  /* #984B43 darkened 10% */
+  color: #753A33 !important;
+}
+.btn.btn-primary {
+  background-color: #984B43;
+  /* #984B43 darkened 5% */
+  border-color: #86423B;
+}
+.btn.btn-primary:hover, .btn.btn-primary:active {
+  /* #984B43 darkened 10% */
+  background-color: #753A33 !important;
+  /* #984B43 darkened 15% */
+  border-color: #63312C !important;
+}
+.btn.btn-primary:focus {
+  /* #984B43 darkened 10% */
+  box-shadow: 0 0 0 0.2rem rgba(117, 58, 51, .5) !important;
+}
+/* END - BOOTSTRAP LINK/BUTTON OVERRIDES */
+
 .home-body {
   color: #fff;
   background-color: #18121E;
@@ -54,11 +79,11 @@ html, body, .tooltip, .popover {
 /* Text selection colour */
 ::-moz-selection {
   color: #fff;
-  background: #EAC67A;
+  background: #984B43;
 }
 ::selection {
   color: #fff;
-  background: #EAC67A;
+  background: #984B43;
 }
 
 .title-text-super {
@@ -94,8 +119,4 @@ html, body, .tooltip, .popover {
 .socials-link:hover {
   /* Fixes underscore appearing next to fontawesome icon on hover */
   text-decoration: none;
-}
-
-.socials-link {
-  color: #984B43;
 }
