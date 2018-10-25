@@ -148,6 +148,8 @@ hr {
 
 .promo-image {
   border-radius: 0.25rem;
+  width: 555px;
+  max-width: 75vw;
 }
 
 .unknown-space-font {
