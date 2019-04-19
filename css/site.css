@@ -146,10 +146,39 @@ hr {
   text-decoration: none;
 }
 
+.project-title {
+  font-size: 3rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.project-subtitle {
+  font-size: 1.9rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.promo-video {
+  width: 700px;
+  height: 394px;
+  max-width: 75vw;
+  max-height: 42vw;
+}
+
 .promo-image {
   border-radius: 0.25rem;
-  width: 555px;
+  width: 278px;
   max-width: 75vw;
+}
+
+.app-store-buttons {
+  width: 100%;
+  max-width: 275px;
+  height: auto;
+}
+
+.app-store-buttons--small {
+  max-width: 220px;
 }
 
 .unknown-space-font {
