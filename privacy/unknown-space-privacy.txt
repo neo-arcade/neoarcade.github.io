@@ -1,3 +1,38 @@
-Updated: 2019-04-13
+Updated: 2019-04-30
 
-TODO
+## Privacy Policy
+
+Neo Arcade Pty Ltd (Neo Arcade) built and operates the Unknown Space app (App). The App is provided by Neo Arcade at no up-front cost and is intended for use as-is.
+
+This privacy policy (Policy) is used to inform visitors regarding our practices for the collection, use, and disclosure of Personal Information for users of our App.
+
+By using the App, you agree to the collection and use of information in relation to this policy. The Personal Information that Neo Arcade collects is used for providing and improving the App. We will not use or share your information with anyone except as described in this Policy.
+
+**Information Collection and Use**
+
+To operate the App, we may require you to provide us with certain personally identifiable information. The information that we request will be retained by us and used as described in this Policy.
+
+The App uses third party services that may collect information used to identify you. Refer to the following links for the privacy policies of these third party service providers (Third Party Services) used by the App:
+
+* [Google Play Apps](https://www.google.com/policies/privacy/)
+* [Unity Analytics and Unity Services](https://unity3d.com/legal/privacy-policy)
+
+**Log Data**
+
+In the event of an error or crash during the operation of the App, we collect data and information (through Third Party Services) on your phone called Log Data. This Log Data may include information such as your device Internet Protocol (“IP”) address, device name, operating system version, the configuration of the app when utilizing our App, the time and date of your use of the App, and other statistics.
+
+**Links to Other Sites**
+
+This App may contain links to other sites. If you click on a third-party link, you will be directed to that site. Note that these external sites are not operated by us unless stated otherwise.We advise you to review the privacy policy of these websites. We have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party sites or services.
+
+**Children’s Privacy**
+
+This App is not targeted at children under the age of 13. We do not knowingly collect personally identifiable information from children under 13. In the case we discover that a child under 13 has provided us with personal information, we immediately delete this data from our servers. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact us and we will remove this data.
+
+**Changes to This Policy**
+
+We may update our Policy from time to time. Thus, you are advised to review this page periodically for any changes. We will notify you of any changes by posting the new Policy on this page. These changes are effective immediately after they are posted on this page.
+
+**Contact Us**
+
+If you have any questions or suggestions about our Policy, do not hesitate to contact us at: contact@neoarcade.games
