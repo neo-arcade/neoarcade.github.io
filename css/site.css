@@ -161,14 +161,15 @@ hr {
 .promo-video {
   width: 700px;
   height: 394px;
-  max-width: 75vw;
-  max-height: 42vw;
+  max-width: 100%;
+  max-height: 60vw;
 }
 
 .promo-image {
   border-radius: 0.25rem;
   width: 278px;
-  max-width: 75vw;
+  height: auto;
+  max-width: 100%;
 }
 
 .app-store-buttons {
