@@ -121,7 +121,7 @@ hr {
 }
 
 .heading {
-  margin-bottom: 3rem;
+  /* margin-bottom: 3rem; */
 }
 
 .subheading {
@@ -139,6 +139,10 @@ hr {
 }
 .section:last-of-type {
   margin-bottom: -1.5rem;
+}
+
+.project-splitter {
+  max-width: 350px;
 }
 
 .socials-link:hover {
@@ -184,6 +188,11 @@ hr {
 
 .unknown-space-font {
   font-family: 'Kenney Future Narrow', sans-serif;
+}
+
+.diceworld-font {
+  font-family: 'Verdana', sans-serif;
+  font-weight: bold !important;
 }
 
 .trademark-notice-text {
