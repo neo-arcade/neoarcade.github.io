@@ -164,6 +164,9 @@ hr {
   font-weight: 300;
   line-height: 1.2;
 }
+.project-subtitle--small {
+  font-size: 1.4rem !important;
+}
 
 .promo-video {
   width: 700px;
