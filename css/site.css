@@ -141,6 +141,9 @@ hr {
   margin-bottom: -1.5rem;
 }
 
+.section-splitter {
+  max-width: 350px;
+}
 .project-splitter {
   max-width: 350px;
 }
