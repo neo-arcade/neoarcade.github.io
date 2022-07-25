@@ -85,6 +85,14 @@
     });
   }
 
+  // Sets image src attribute once page has loaded enough to run scripts to ensure core content is in place
+  var lazyLoadImages = function() {
+    $('img').filter('[data-src]').each(function (index, elem) {
+      var dataSrc = $(elem).attr('data-src');
+      $(elem).attr('src', dataSrc);
+    });
+  }
+
   var initSiteScript = function() {
     var $contactForm = $(CONTACT_FORM_SELECTOR);
     $contactForm.on('submit', onContactFormSubmit);
@@ -93,6 +101,7 @@
     $('[data-toggle="collapse"]').on('click', smoothScrollToSection);
 
     bindPageAnalytics();
+    lazyLoadImages();
   };
 
   $(initSiteScript);
