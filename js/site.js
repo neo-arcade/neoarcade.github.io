@@ -5,8 +5,6 @@
   var CONTACT_FORM_EMAIL_SUBJECT_SELECTOR = '#contact-email-subject';
   var EMAIL_SUBSCRIPTION_FORM_SELECTOR = '#mc-embedded-subscribe-form';
   var SOCIALS_BUTTON_SELECTOR = '.socials-link';
-  var UNKNOWN_SPACE_IOS_STORE_BUTTON_SELECTOR = '#unknown-space-ios-link';
-  var UNKNOWN_SPACE_ANDROID_STORE_BUTTON_SELECTOR = '#unknown-space-android-link';
 
   var SMOOTH_SCROLL_ANIM_OFFSET = -16;
 
@@ -71,16 +69,13 @@
     });
 
     // Submit analytics event for clicking the app store buttons
-    $(UNKNOWN_SPACE_IOS_STORE_BUTTON_SELECTOR).on('click', function (a_evt) {
-      gtag('event', 'click_store_link', {
-        'event_category': 'engagement',
-        'event_label': 'Unknown Space - iOS'
-      });
-    });
-    $(UNKNOWN_SPACE_ANDROID_STORE_BUTTON_SELECTOR).on('click', function (a_evt) {
-      gtag('event', 'click_store_link', {
-        'event_category': 'engagement',
-        'event_label': 'Unknown Space - Android'
+    $('[data-store-link-id]').each(function (index, elem) {
+      var dataStoreLink = $(elem).attr('data-store-link-id');
+      $(elem).on('click', function (a_evt) {
+        gtag('event', 'click_store_link', {
+          'event_category': 'engagement',
+          'event_label': dataStoreLink
+        });
       });
     });
   }
